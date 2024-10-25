@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#bookList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.book {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px; /* можно изменить для настройки ширины блока */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
